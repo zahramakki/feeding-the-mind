@@ -1,6 +1,7 @@
 # Feeding the Mind: How Diet Composition Relates to Population Mental Health
 
 **Authors**: Zahra Makki & Susan Hatem
+
 **Datasets**: [Global Dietary Database](https://www.globaldietarydatabase.org/), [Global Mental Health Disorders](https://www.kaggle.com/datasets/thedevastator/global-mental-health-disorders)
 
 ---
@@ -106,22 +107,6 @@ project-root/
 ├── README.md
 └── requirements.txt
 ```
-
----
-
-## Contributions
-
-**Zahra Makki**  
-- Cleaned and analyzed GDD data  
-- Developed dietary feature engineering  
-- Merged datasets and conducted correlational analyses  
-- Created scatterplots and contributed to final report writing
-
-**Susan Hatem**  
-- Cleaned and analyzed Mental Health dataset  
-- Normalized prevalence values  
-- Refactored codebase for modularity and efficiency  
-- Generated country and region-level distribution visualizations
 
 ---
 
