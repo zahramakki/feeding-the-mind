@@ -2,8 +2,6 @@
 
 **Authors**: Zahra Makki & Susan Hatem
 
-**Datasets**: [Global Dietary Database](https://www.globaldietarydatabase.org/), [Global Mental Health Disorders](https://www.kaggle.com/datasets/thedevastator/global-mental-health-disorders)
-
 ---
 
 ## Overview
@@ -24,12 +22,12 @@ Building on this, we aimed to examine the global patterns connecting food consum
 
 ## Data Sources
 
-### 1. Global Dietary Database (GDD)
+### 1. [Global Dietary Database (GDD)] (https://www.globaldietarydatabase.org/)
 - Source: Global Dietary Database (CSV format)
 - Filtered for: National-level data (1990–2017)
 - Key Variables: ISO3 (country code), Year, Available dietary factors
 
-### 2. Global Mental Health Disorders
+### 2. [Global Mental Health Disorders] (https://www.kaggle.com/datasets/thedevastator/global-mental-health-disorders)
 - Source: Kaggle (CSV format)
 - Filtered for: Country-level data (1990–2019)
 - Key Variables: ISO3 (country code), Year, Prevalence of seven mental health disorders  
