@@ -1,7 +1,7 @@
 # Feeding the Mind: How Diet Composition Relates to Population Mental Health
 
-**Authors**: Zahra Makki (zahramakki) & Susan Hatem (susanhat)  
-**Datasets**: [Global Dietary Database](https://www.globaldietarydatabase.org/), [Global Mental Health Disorders (Kaggle)](https://www.kaggle.com/datasets/thedevastator/global-mental-health-disorders)
+**Authors**: Zahra Makki & Susan Hatem
+**Datasets**: [Global Dietary Database](https://www.globaldietarydatabase.org/), [Global Mental Health Disorders](https://www.kaggle.com/datasets/thedevastator/global-mental-health-disorders)
 
 ---
 
