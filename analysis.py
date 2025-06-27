@@ -216,4 +216,3 @@ def normalize_outcome_columns(df):
             print(f"{col} not found in dataframe, skipping.")
     
     return df_cleaned
-
