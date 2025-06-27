@@ -1,1 +1,6 @@
 missingno
+seaborn
+pandas
+numpy
+matplotlib
+scipy
