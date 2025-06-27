@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def add_diet_scores(df, plant_based, animal_based, factor_col='factor_set'):
+    df = df.copy()
+    
     # Max counts for normalization
     max_plant = len(plant_based)
     max_animal = len(animal_based)
@@ -32,6 +34,8 @@ def compute_processed_diet_score(df: pd.DataFrame,
                                   factor_column: str,
                                   processed_items: set, 
                                   unprocessed_items: set) -> pd.DataFrame:
+    df = df.copy()
+    
     def count_factors(factors):
         if not factors:
             return pd.Series({'processed_count': 0, 'unprocessed_count': 0})
@@ -66,7 +70,7 @@ def add_diversity_score(df: pd.DataFrame,
     Returns:
     - pd.DataFrame - DataFrame with new 'diversity_score' column
     """
-
+    df = df.copy()
     def diversity_score(factors):
         if not factors:
             return 0.0

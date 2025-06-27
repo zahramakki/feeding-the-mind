@@ -143,7 +143,7 @@ def plot_country_distribution(df: pd.DataFrame,
     fig_height = max(4, num_countries * height_per_country)
 
     plt.figure(figsize=(10, fig_height))
-    sns.barplot(x=country_counts.values, y=country_counts.index, palette='Blues_r')
+    sns.barplot(x=country_counts.values, y=country_counts.index, hue=country_counts.index, palette='Blues_r', legend=False)
     plt.xlabel("Number of Records")
     plt.ylabel("Country (ISO3)")
     plt.title(title)
@@ -181,7 +181,7 @@ def plot_region_distribution(df: pd.DataFrame,
 
     # Plot
     plt.figure(figsize=(10, 6))
-    sns.barplot(x=region_counts.values, y=region_counts.index, palette='Blues_r')
+    sns.barplot(x=region_counts.values, y=region_counts.index, hue=region_counts.index, palette='Blues_r', legend=False)
     plt.xlabel("Number of Records")
     plt.ylabel("Region")
     plt.title(title)
