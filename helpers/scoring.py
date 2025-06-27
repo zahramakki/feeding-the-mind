@@ -1,3 +1,6 @@
+import sys
+sys.path.append('helpers')
+
 import pandas as pd
 import seaborn as sns
 import missingno as msno
